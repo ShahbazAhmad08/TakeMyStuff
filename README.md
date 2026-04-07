@@ -20,16 +20,25 @@ A modern mobile marketplace app built using React Native and Expo. Users can bro
 
 ## 📸 Screenshots
 
-- Login Screen  
-  ![Login Screen](assets/screenshots/login.jpg)
-- Home Screen  
-  ![Home Screen](assets/screenshots/home.jpg)
-- Add Product  
-  ![Add Product](assets/screenshots/add.jpg)
-- Product Details  
-  ![Product Details](assets/screenshots/product.jpg)
-- Profile Screen  
-  ![Profile Screen](assets/screenshots/profile.jpg)
+### 🔐 Login Screen
+
+<img src="assets/screenshots/login.png" width="250" />
+
+### 🏠 Home Screen
+
+<img src="assets/screenshots/home.png" width="250" />
+
+### ➕ Add Product
+
+<img src="assets/screenshots/add.png" width="250" />
+
+### 📦 Product Details
+
+<img src="assets/screenshots/product.png" width="250" />
+
+### 👤 Profile Screen
+
+<img src="assets/screenshots/profile.png" width="250" />
 
 ## 🛠️ Tech Stack
 
