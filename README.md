@@ -1,50 +1,87 @@
-# Welcome to your Expo app 👋
+# 🛒 Smart Marketplace App (React Native + Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern mobile marketplace app built using React Native and Expo. Users can browse, add, edit, and manage products with seller details and persistent storage.
 
-## Get started
+---
 
-1. Install dependencies
+## 🚀 Features
 
-   ```bash
-   npm install
-   ```
+- 🔐 Authentication (Login / Signup / Skip)
+- 📦 Add, Edit, Delete Products
+- 🔍 Search & Filter Products
+- 🖼️ Image Upload (Expo Image Picker)
+- 👤 Seller Details (Name, Phone, Email, Address)
+- 📞 Contact Seller (Call integration)
+- 💾 Local Storage (AsyncStorage)
+- 📱 Modern UI (Clean & Responsive)
+- 🔄 Persistent Data + Demo Data Support
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 📸 Screenshots
 
-In the output, you'll find options to open the app in a
+- Login Screen  
+  ![Login Screen](assets/screenshots/login.jpg)
+- Home Screen  
+  ![Home Screen](assets/screenshots/home.jpg)
+- Add Product  
+  ![Add Product](assets/screenshots/add.jpg)
+- Product Details  
+  ![Product Details](assets/screenshots/product.jpg)
+- Profile Screen  
+  ![Profile Screen](assets/screenshots/profile.jpg)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## 🛠️ Tech Stack
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- React Native (Expo)
+- TypeScript
+- Context API (State Management)
+- AsyncStorage (Local Database)
+- Expo Router (Navigation)
 
-## Get a fresh project
+---
 
-When you're ready, run:
+## 📂 Folder Structure
+
+app/
+├── (tabs)/
+│ ├── home.tsx
+│ ├── add.tsx
+│ ├── profile.tsx
+├── product/
+│ └── [id].tsx
+├── login.tsx
+├── signup.tsx
+├── index.tsx
+
+context/
+├── AuthContext.tsx
+├── ProductContext.tsx
+
+---
+
+## ⚡ Getting Started
 
 ```bash
-npm run reset-project
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## 🎯 Future Improvements
 
-To learn more about developing your project with Expo, look at the following resources:
+- Firebase Backend Integration
+- Real-time Chat System
+- Wishlist / Favorites
+- Image Upload to Cloud
+- Location-based Listings
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+## 🙌 Author
 
-Join our community of developers creating universal apps.
+Shahbaz Ahmad
+Frontend Developer (React.js / React Native)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
